@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing:border-box ;
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,7 @@ body{
 
 #container{
      height: 70vh;
-    /* width: 70wh;  */
+
     display: flex;
     
     justify-content: center;
@@ -38,9 +38,29 @@ body{
     height:18vmin;
     width: 18vmin;
     border:black solid 2px;
+    color: black ;
+    font-size:10vmin;
+    background-color: white;
     
     
 }
 
+h1{
+color:#d4a373;
+}  
 
-        
+.winner{
+    margin-top: 5vmin;
+    color: aqua;
+    font-size: 4vmin;
+}
+
+#reload{
+    background-color:#ccd5ae;
+    border-radius:3px;
+    height: 7vmin;
+    width: 20vmin;
+    font-size:3vmin;
+    font-weight: 600;
+    margin-top: 7vmin;
+}
